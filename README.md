@@ -16,9 +16,9 @@ pipe1. Процесс child проверяет строки на валидно�
 ## Инструкция по запуску
 1. **Склонируйте ветку с лабой и откройте в VS Code**
     ```bash
-   git clone -b lr1 https://github.com/mihateren/oop.git
-   cd oop
-   code oop
+   git clone -b lr1 https://github.com/mihateren/os.git
+   cd os
+   code os
     ```
 2. **Сборка через Dev Container**
     Установите расширение [Dev Containers](vscode:extension/ms-vscode-remote.remote-containers).
