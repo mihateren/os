@@ -8,7 +8,7 @@
 #include <string.h>
 #include <stdbool.h>
 
-char* get_fileaname() {
+char* get_filename() {
     int len = 0;
     int capacity = 1;
     char *s = (char*) malloc(sizeof(char));
@@ -36,7 +36,7 @@ int main (){
 	};
 
 	char * first_file = NULL;
-	first_file = get_fileaname();
+	first_file = get_filename();
 	if (first_file == NULL) {
 		perror ("Large file name or no memory \n");
 		return -1;
@@ -47,7 +47,7 @@ int main (){
 		return -1;
 	}
 	char * second_file = NULL;
-	second_file = get_fileaname();
+	second_file = get_filename();
 	if (second_file == NULL) {
 		perror ("Large file name or no memory\n");
 		return -1;
