@@ -1,10 +1,9 @@
 cmake_minimum_required(VERSION 3.10)
-project(lr1)
+project(lr2)
 
-set(CMAKE_C_STANDARD 11) 
-set(CMAKE_C_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Werror=maybe-uninitialized")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Werror=maybe-uninitialized")
 
-add_executable(lab1 main.c)
-add_executable(child child.c)
+add_executable(lab2 main.cpp)
